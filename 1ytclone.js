@@ -8,7 +8,7 @@ function togglesidebar(){
 }
 
 function homebutton(){
-    window.location.href = "1 yt clone.html";
+    window.location.href = "index.html";
 }
 
 var thumbnails = document.querySelectorAll('.image-container');
