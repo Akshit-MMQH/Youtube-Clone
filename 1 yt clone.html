@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="1 yt clone.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="ul">
+            <li onclick="homebutton();"><img src="svg files/home_button.svg">HOME</li>
+            <li><img src="svg files/shorts.svg">SHORTS</li>
+            <li><img src="svg files/subcription_button.svg">SUBSCRIPTIONS</li>
+        </ul>
+        <ul class="ul">
+            <li><img src="svg files/settings.svg">SETTINGS</li>
+            <li><img src="svg files/report.svg">REPORT</li>
+            <li><img src="svg files/help.svg">HELP</li>
+            <li><img src="svg files/feedback.svg">FEEDBACK</li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header-inline left">
+            <button class="menu-button" onclick="togglesidebar();">
+                <img class="menu-image" src="svg files/menu_button.svg">
+            </button>
+            <a href="1 yt clone.html"><img class="yt-icon-image" src="svg files/yt-icon.svg"></a>
+            <a href="1 yt clone.html" class="yt-text">YouTube</a>
+        </div>
+        <div class="header-inline center">
+            <input placeholder="Search" class="search-bar">
+            <button class="search-icon-button">
+                <img class="search-icon" src="svg files/search.svg">
+            </button>
+            <button class="mic-icon-button">
+                <img class="mic" src="svg files/mic.svg">
+            </button>
+        </div>
+        <div class="header-inline right">
+            <button class="create-button">            
+                <img class="add-image" src="svg files/add.svg">
+                <span>Create</span>
+            </button>
+            <button class="notification-button">
+                <img src="svg files/notification.svg"><span class="noti-number">5</span>
+            </button>
+            <a class="user-icon" href="#"><img src="svg files/user.svg"></a>
+        </div>
+    </header>
+
+    
+    <div class="yt-videos">
+        <div class="yt-video-poster">
+            <div class="image-container" data-name="sapphire" data-title="Ed Sheeran - Sapphire (Official Music Video)"> 
+                <img class="yt-video-poster-image"src="images/sapphire.jpg"alt="yt-poster">
+                <div class="video-time">3:03</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="images/sapphire_chnl.jpg"></div>
+                <div>
+                    <p class="video-title">Ed Sheeran - Sapphire (Official Music Video)</p>
+                    <p class="channel-name">Ed Sheeran</p>
+                    <p class="video-views">91.3M views &#183 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+         <div class="yt-video-poster">
+            <div class="image-container" data-name="farebi" data-title="Chaar Diwaari X @raftaarmusic - FAREBI (Official Video) | Pyaar Diwaari Arc 3">
+            <img class="yt-video-poster-image" src="images/farebi.jpg" alt="yt-poster">
+            <div class="video-time">5:04</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="images/farebi_channel.jpg"></div>
+                <div>
+                    <p class="video-title">Chaar Diwaari X @raftaarmusic - FAREBI (Official Video) | Pyaar Diwaari Arc 3</p>
+                    <p class="channel-name">Chaar Diwaari</p>
+                    <p class="video-views">2.9M views &#183 2 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="yt-video-poster">
+            <div class="image-container" data-name="coder" data-title = "Give me 180 secs and CODING will be your addiction.">    
+            <img class="yt-video-poster-image" src="images/coder.avif" alt="yt-poster">
+            <div class="video-time">2:50</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="coder_chnl.jpg"></div>
+                <div>
+                    <p class="video-title">Give me 180 secs and CODING will be your addiction.</p>
+                    <p class="channel-name">TECHNITIUM</p>
+                    <p class="video-views">297K views &#183 1 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="yt-video-poster">
+            <div class="image-container" data-name="aboutyou" data-title="About You - The 1975">
+            <img class="yt-video-poster-image"src="images/aboutyou.avif"alt="yt-poster">
+            <div class="video-time">5:24</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="images/aboutyou_chnl.jpg"></div>
+                <div>
+                    <p class="video-title">About You - The 1975</p>
+                    <p class="channel-name">tinted Heart</p>
+                    <p class="video-views">13M views &#183 9 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="yt-video-poster">
+            <div class="image-container" data-name="cbum" data-title="CBUM OLYMPIA PREP BEGINS | LEG DAY">
+            <img class="yt-video-poster-image"src="images/cb.avif"alt="yt-poster">
+            <div class="video-time">14:33</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="images/cb_chnl.jpg"></div>
+                <div>
+                    <p class="video-title">CBUM OLYMPIA PREP BEGINS | LEG DAY</p>
+                    <p class="channel-name">Hany Rambod</p>
+                    <p class="video-views">928K views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="yt-video-poster">
+            <div class="image-container" data-name="courage" data-title="Courage The Cowardly Dog | Courage’s Creepy Camera Chronicles! 📷🎭| Compilation | @cnindia">
+            <img class="yt-video-poster-image"src="images/courage.avif"alt="yt-poster">
+            <div class="video-time">59:27</div>
+            </div>
+            <div class="yt-video-bottom">
+                <div class="channel-image-div"><img class="channel-image" src="images/courage_channel.jpg"></div>
+                <div>
+                    <p class="video-title">Courage The Cowardly Dog | Courage’s Creepy Camera Chronicles! 📷🎭| Compilation | @cnindia</p>
+                    <p class="channel-name">Cartoon Network India</p>
+                    <p class="video-views">328K views &#183 6 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="1ytclone.js"></script>   
+</body>
+</html>

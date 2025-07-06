@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="1yt video player.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="ul">
+            <li onclick="homebutton();"><img src="svg files/home_button.svg">HOME</li>
+            <li><img src="svg files/shorts.svg">SHORTS</li>
+            <li><img src="svg files/subcription_button.svg">SUBSCRIPTIONS</li>
+        </ul>
+        <ul class="ul">
+            <li><img src="svg files/settings.svg">SETTINGS</li>
+            <li><img src="svg files/report.svg">REPORT</li>
+            <li><img src="svg files/help.svg">HELP</li>
+            <li><img src="svg files/feedback.svg">FEEDBACK</li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header-inline left">
+            <button class="menu-button" onclick="togglesidebar();">
+                <img class="menu-image" src="svg files/menu_button.svg">
+            </button>
+            <a href="1 yt clone.html"><img class="yt-icon-image" src="svg files/yt-icon.svg"></a>
+            <a href="1 yt clone.html" class="yt-text">YouTube</a>
+        </div>
+        <div class="header-inline center">
+            <input placeholder="Search" class="search-bar">
+            <button class="search-icon-button">
+                <img class="search-icon" src="svg files/search.svg">
+            </button>
+            <button class="mic-icon-button">
+                <img src="svg files/mic.svg">
+            </button>
+        </div>
+        <div class="header-inline right">
+            <button class="create-button">            
+                <img class="add-image" src="svg files/add.svg">
+                <span>Create</span>
+            </button>
+            <button class="notification-button">
+                <img src="svg files/notification.svg"><span class="noti-number">5</span>
+            </button>
+            <a class="user-icon" href="#"><img src="svg files/user.svg"></a>
+        </div>
+    </header>
+    <div class="video-player-container">
+        <video id="player" controls autoplay controlsList="nodownload">
+        </video>
+    </div>
+    <p class="title-container title-css"></p>
+<script src="1ytvideoplayer.js"></script>    
+</body>
+</html>
