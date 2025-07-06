@@ -6,7 +6,9 @@ function togglesidebar(){
         navbar.style.display = 'flex';
     }
 }
-
+function homebutton(){
+    window.location.href = "index.html";
+}
 function getQuery(name) {
       var urlParams = new URLSearchParams(window.location.search);
       return urlParams.get(name);
