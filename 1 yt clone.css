@@ -235,6 +235,7 @@ nav li:hover{
 .yt-video-poster-image{
     width: 100%;
     border-radius:5px;
+    cursor:pointer;
 }
 .channel-image{
     height: 40px;
@@ -285,4 +286,5 @@ nav li:hover{
     padding-right: 5px;
     border-radius: 4px;
 }
+
 
