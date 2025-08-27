@@ -269,6 +269,9 @@ nav li:hover{
 .image-container{
     position:relative;
 }
+.image-container:hover{
+    cursor:pointer;
+}
 .video-time{
     position:absolute;
     background-color: rgba(0, 0, 0, 0.607);
@@ -282,3 +285,4 @@ nav li:hover{
     padding-right: 5px;
     border-radius: 4px;
 }
+
